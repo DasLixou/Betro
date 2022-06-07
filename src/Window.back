@@ -3,3 +3,11 @@ struct Window {
     width: i32;
     height: i32;
 }
+
+implement Window {
+    func new(title: string, width: i32, height: i32) static {
+        this.title = title;
+        this.width = width;
+        this.height = height;
+    }
+}
