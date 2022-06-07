@@ -2,9 +2,9 @@
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <Description>TestConsole</Description>
+    <Description>Game Library for BackLang</Description>
     <TargetFramework>net7</TargetFramework>
-    <AssemblyName>TestConsole</AssemblyName>
+    <AssemblyName>Betro</AssemblyName>
     <IncludeBuildOutput>true</IncludeBuildOutput>
     <OutputTree>True</OutputTree>
   </PropertyGroup>
