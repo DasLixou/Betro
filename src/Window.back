@@ -1,7 +1,8 @@
-struct Window {
+class Window {
     title: string;
     width: i32;
     height: i32;
+    targetFPS: i32 = 60;
 }
 
 implement Window {
@@ -9,5 +10,9 @@ implement Window {
         this.title = title;
         this.width = width;
         this.height = height;
+    }
+
+    func spawn() {
+        
     }
 }
