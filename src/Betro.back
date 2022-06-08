@@ -3,7 +3,7 @@ class Betro {
 }
 
 implement Betro {
-    func createWindow(title: string, width: i32, height:i32) static -> Window {
+    func createWindow(title: string, width: i32, height: i32) static -> Window {
         let window = Window::new(title, width, height);
     }
 }

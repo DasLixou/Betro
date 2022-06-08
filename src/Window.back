@@ -1,8 +1,8 @@
 class Window {
-    title: string;
-    width: i32;
-    height: i32;
-    targetFPS: i32 = 60;
+    let mut title: string;
+    let width: i32;
+    let height: i32;
+    let mut targetFPS: i32 = 60;
 }
 
 implement Window {
