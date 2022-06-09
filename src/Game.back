@@ -1,3 +1,13 @@
-class abstract Game {
+interface IGame {
     
+    func earlyInit() -> none;
+
+    func lateInit() -> none;
+
+    func input() -> none;
+    
+    func update() -> none;
+
+    func render(ctx: DrawContext) -> none;
+
 }
