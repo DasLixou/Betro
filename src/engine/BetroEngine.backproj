@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <Description>Game Library for BackLang</Description>
+    <Description>Game Engine Library for BackLang</Description>
     <TargetFramework>net7</TargetFramework>
     <AssemblyName>Betro</AssemblyName>
     <IncludeBuildOutput>true</IncludeBuildOutput>

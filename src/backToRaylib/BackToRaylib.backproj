@@ -1,0 +1,11 @@
+<Project Sdk="Backlang.NET.Sdk/1.0.34">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <Description>BackLang Bindings for RayLib</Description>
+    <TargetFramework>net7</TargetFramework>
+    <AssemblyName>BackToRaylib</AssemblyName>
+    <IncludeBuildOutput>true</IncludeBuildOutput>
+  </PropertyGroup>
+  
+</Project>
