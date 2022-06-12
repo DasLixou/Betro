@@ -8,5 +8,9 @@
     <IncludeBuildOutput>true</IncludeBuildOutput>
     <OutputTree>True</OutputTree>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\backToRaylib\BackToRaylib.backproj" />
+  </ItemGroup>
   
 </Project>
