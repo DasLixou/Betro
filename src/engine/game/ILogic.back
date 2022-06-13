@@ -8,4 +8,6 @@ interface ILogic {
 
     func render(ctx: DrawContext) -> none;
 
+    func terminate() -> none;
+
 }
