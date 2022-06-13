@@ -5,6 +5,6 @@ class abstract Game : ILogic {
 implement Game {
     func new() static {
         // TODO: Call macro for creating window
-        this.init();
+        this.Init();
     }
 }

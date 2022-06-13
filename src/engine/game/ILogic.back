@@ -1,13 +1,13 @@
 interface ILogic {
 
-    func init() -> none;
+    func Init() -> none;
 
-    func input() -> none;
+    func Input() -> none;
     
-    func update() -> none;
+    func Update() -> none;
 
-    func render(ctx: DrawContext) -> none;
+    func Render(ctx: DrawContext) -> none;
 
-    func terminate() -> none;
+    func Terminate() -> none;
 
 }
