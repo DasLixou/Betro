@@ -1,3 +1,6 @@
+/** 
+ * DrawContext holds information about drawing and contains macros which are calling render functions in prefered libraries
+ */
 class DrawContext {
     
 }

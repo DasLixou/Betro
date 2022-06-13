@@ -1,0 +1,11 @@
+interface ILogic {
+
+    func init() -> none;
+
+    func input() -> none;
+    
+    func update() -> none;
+
+    func render(ctx: DrawContext) -> none;
+
+}
