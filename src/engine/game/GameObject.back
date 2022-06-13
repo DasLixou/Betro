@@ -1,3 +1,0 @@
-class abstract GameObject : ILogic {
-    
-}
