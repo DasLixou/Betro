@@ -1,0 +1,40 @@
+struct Vector2 {
+    let mut x: f32;
+    let mut y: f32;
+}
+
+implement Vector2 {
+    func new() static {
+        x = 0;
+        y = 0;
+    }
+
+    func new(x: f32, y: f32) static {
+        this.x = x;
+        this.y = y;
+    }
+    
+    func Add(other: Vector2) {
+        x += other.x;
+        y += other.y;
+    }
+
+    func Subtract(other: Vector2) {
+        x -= other.x;
+        y -= other.y;
+    }
+
+    func Multiply(other: Vector2) {
+        x *= other.x;
+        y *= other.y;
+    }
+
+    func Divide(other: Vector2) {
+        x /= other.x;
+        y /= other.y;
+    }
+    
+    func ToString() override -> string {
+        return "Vector2(x=" + x + ", y=" + y + ")";
+    }
+}

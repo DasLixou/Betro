@@ -1,5 +1,0 @@
-struct Vector3 {
-    let mut x: f32;
-    let mut y: f32;
-    let mut z: f32;
-}
