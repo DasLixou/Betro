@@ -1,25 +1,3 @@
 class TransformComponent : Component {
 
 }
-
-implement TransformComponent {
-    func Init() -> none {
-        
-    }
-
-    func Input() -> none {
-        
-    }
-    
-    func Update() -> none {
-        
-    }
-
-    func Render(ctx: DrawContext) -> none {
-        
-    }
-
-    func Terminate() -> none {
-        
-    }
-}

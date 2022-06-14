@@ -1,3 +1,15 @@
 class abstract GameNode : ILogic {
     
 }
+
+implement GameNode {
+    func Init() -> none { }
+
+    func Input() -> none { }
+    
+    func Update() -> none { }
+
+    func Render(ctx: DrawContext) -> none { }
+
+    func Terminate() -> none { }
+}
