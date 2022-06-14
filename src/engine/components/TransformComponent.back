@@ -1,3 +1,5 @@
 class TransformComponent : Component {
-
+    let position: Vector3;
+    let rotation: Vector3;
+    let scale: Vector3;
 }
