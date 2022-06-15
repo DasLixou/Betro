@@ -7,7 +7,7 @@ implement Component {
 
     func Input() -> none { }
     
-    func Update() -> none { }
+    func Update(deltaTime: f32) -> none { }
 
     func Render(ctx: DrawContext) -> none { }
 
