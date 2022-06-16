@@ -1,4 +1,4 @@
-class abstract Component : ILogic {
+abstract class Component : ILogic {
 
 }
 

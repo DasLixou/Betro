@@ -1,9 +1,9 @@
-class abstract Game : ILogic {
+abstract class Game : ILogic {
 
 }
 
 implement Game {
-    func new() static {
+    static func new() {
         // TODO: Call macro for creating window
         this.Init();
     }

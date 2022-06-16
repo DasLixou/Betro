@@ -1,4 +1,4 @@
-class static Raylib {
+static class Raylib {
     
 }
 

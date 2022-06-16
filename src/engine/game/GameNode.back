@@ -1,4 +1,4 @@
-class abstract GameNode : ILogic {
+abstract class GameNode : ILogic {
     
 }
 

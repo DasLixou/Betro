@@ -1,9 +1,9 @@
-class static Betro {
+static class Betro {
     
 }
 
 implement Betro {
-    func CreateWindow(title: string, width: i32, height: i32) static -> Window {
+    static func CreateWindow(title: string, width: i32, height: i32) -> Window {
         //let window = Window::new(title, width, height); // this is currently not possible in compilation - throws error
     }
 }
